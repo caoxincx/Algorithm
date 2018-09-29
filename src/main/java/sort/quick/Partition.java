@@ -1,6 +1,7 @@
 package sort.quick;
 
 import sort.Sort;
+import sort.SortUtils.Utils;
 
 import java.util.Arrays;
 
@@ -17,58 +18,30 @@ public class Partition implements Sort {
 
     }
     /**
-     * 将一个数组按数组最后一个元素分成<=区，>区两个区间
+     * 将一个数组按数组最后一个元素分成<区，>=区两个区间
      * 时间复杂度为O(N),空间复杂为0
      * @param arr
      */
-    public static void quickSort(int[] arr){
-
-        int smallZone = -1;
-        int bigZone = arr.length-1;
-
-        partition(arr, smallZone, bigZone);
 
 
+    public static void partition(int[] arr, int compartor){
+
+       int index = 0;
+       int smallZone = -1;
+       while (index < arr.length){
+           if (arr[index] < compartor){
+               Utils.swap(arr,index++,++smallZone);
+           }else {
+               index++;
+           }
+       }
     }
 
-    public static void partition(int[] arr, int smallZone, int bigZone){
 
-        int middle = arr[bigZone];
-        int left = smallZone;
-        int right = bigZone;
-
-        while (smallZone < bigZone){
-            while (arr[++smallZone] < middle){
-                if (arr[smallZone] > middle){
-                    break;
-                }
-            }
-            while (arr[--bigZone] > middle){
-                if (arr[bigZone] < middle){
-                    break;
-                }
-            }
-            if (smallZone < bigZone){
-                swap(arr,smallZone,bigZone);
-            }
-        }
-    }
-
-    /**
-     * 两个数组之间的元素交换
-     * @param arr
-     * @param a
-     * @param b
-     */
-    public static void swap(int[] arr, int a, int b){
-        int tmp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = tmp;
-    }
 
     public static void main(String[] args) {
         int[] arr = {1,5,3,2,6,4};
-        quickSort(arr);
+        partition(arr,4);
         System.out.println(Arrays.toString(arr));
     }
 

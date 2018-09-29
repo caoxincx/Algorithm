@@ -102,4 +102,16 @@ public class Utils {
         }
         System.out.println("right!!!");
     }
+
+    /**
+     * 两个数组之间的元素交换
+     * @param arr
+     * @param a
+     * @param b
+     */
+    public static void swap(int[] arr, int a, int b){
+        int tmp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = tmp;
+    }
 }
