@@ -1,5 +1,8 @@
 package sort.merge;
 
+import sort.Sort;
+import sort.SortUtils.Utils;
+
 import java.util.Arrays;
 
 /**
@@ -21,7 +24,13 @@ import java.util.Arrays;
  *
  * logba < d  ===> d
  */
-public class MergeSort {
+public class MergeSort implements Sort {
+
+    @Override
+    public void sort(int[] arr) {
+        mergeSort(arr);
+    }
+
     public static void mergeSort(int[] arr){
         mergeSort(arr,0,arr.length-1);
     }
@@ -38,10 +47,10 @@ public class MergeSort {
         //原来的一个问题，递归成两个子问题
         mergeSort(arr,left,middle);
         mergeSort(arr,middle+1,right);
-        merge(arr,left,middle,right);
+        sort(arr,left,middle,right);
     }
 
-    private static void merge(int[] arr, int left, int middle, int right) {
+    private static void sort(int[] arr, int left, int middle, int right) {
         int returnLeft = left;
         int returnRight = middle + 1;
         int start = 0;
@@ -69,91 +78,7 @@ public class MergeSort {
         }
     }
 
-    /**
-     * 比较器：对数器
-     * @param arr1 数组1
-     * @return
-     */
-    public static void compartor(int[] arr1){
-        Arrays.sort(arr1);
-    }
-
-    /**
-     * 数组复制
-     * @param arr
-     * @return
-     */
-    public static int[] copyArr(int[] arr){
-        if (arr == null) {
-            return null;
-        }
-        int[] newArr = new int[arr.length];
-        for (int i = 0; i < arr.length; i++){
-            newArr[i] = arr[i];
-        }
-        return newArr;
-    }
-
-    /**
-     * 获取最大值和大小随机的数组
-     * @param maxSize
-     * @param maxValue
-     * @return
-     */
-    public static int[] generateRandomArray(int maxSize, int maxValue) {
-        int[] arr = new int[(int) ((maxSize) * Math.random()+ 1)];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int) ((maxValue) * Math.random() + 1) - (int) (maxValue * Math.random()+ 1);
-        }
-        return arr;
-    }
-
-    /**
-     * 判断两个数组是否相等
-     * @param arr1
-     * @param arr2
-     * @return
-     */
-    public static boolean isEqual(int[] arr1, int[] arr2) {
-        if ((arr1 == null && arr2 != null) || (arr1 != null && arr2 == null)) {
-            return false;
-        }
-        if (arr1 == null && arr2 == null) {
-            return true;
-        }
-        if (arr1.length != arr2.length) {
-            return false;
-        }
-        for (int i = 0; i < arr1.length; i++) {
-            if (arr1[i] != arr2[i]) {
-                return false;
-            }
-        }
-        return true;
-    }
-
     public static void main(String[] args) {
-
-        int maxValue = 100;
-        int maxSize = 100;
-        int timeOut = 10000;
-        for (int i = 0; i < timeOut; i++){
-
-            int[] arr1 = generateRandomArray(maxSize, maxValue);
-            int[] arr2 = copyArr(arr1);
-
-
-            compartor(arr1);
-            mergeSort(arr2);
-
-
-            if (!isEqual(arr1,arr2)){
-                System.out.println("fucking fuck!!!");
-                System.out.println(Arrays.toString(arr1));
-                System.out.println(Arrays.toString(arr2));
-                return;
-            }
-        }
-        System.out.println("right!!!");
+        Utils.testSortTemplate(new MergeSort());
     }
 }
