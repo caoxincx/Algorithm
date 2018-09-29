@@ -17,11 +17,22 @@ public class QuickSort implements Sort {
 
     /**
      * 快速排序
+     * 时间复杂度分析：
+     * T(N) = 2T(n/2)+n
+     * a = 2
+     * b = 2
+     * d = n
+     * logba > d = n^logba
+     * logba = d = d * logba = nlogn
+     * logba < d = d
      * @param arr
      * @param left
      * @param right
      */
     private static void quickSort(int[] arr, int left, int right) {
+        if (arr == null || arr.length < 2){
+            return;
+        }
         if (left < right) {
             //1.执行分区
             int[] partition = partition(arr, left, right);
@@ -45,7 +56,7 @@ public class QuickSort implements Sort {
         //2.【大于区】
         int bigZone = right + 1;
         //3.随机 一个中位数的比较值
-        int comparator = getComparator(arr,left,right);
+        int comparator = Utils.getComparator(arr,left,right);
         //4.partition：部分
         while(left < bigZone){
             if (arr[left] < comparator){
@@ -60,25 +71,7 @@ public class QuickSort implements Sort {
         return new int[]{smallZone,bigZone};
     }
 
-    /**
-     * 获取数组中三个数的中间值
-     * @param arr
-     * @param left
-     * @param right
-     * @return
-     */
-    public static int getComparator(int[] arr,int left,int right){
-        int middle = (right + left) >> 1;
-        if (arr[left] > arr[middle]){
-            return arr[left] > arr[right]?
-                    arr[right] > arr[middle]?arr[right]:arr[middle]:arr[left];
-        }else if (arr[left] < arr[middle]){
-            return arr[middle] > arr[right]?
-                    arr[right]>arr[left]?arr[right]:arr[left]:arr[middle];
-        }else {
-            return arr[left]>arr[middle]?arr[middle]:arr[left];
-        }
-    }
+
 
     public static void main(String[] args) {
         Utils.testSortTemplate(new QuickSort());

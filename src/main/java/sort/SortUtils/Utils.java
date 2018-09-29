@@ -114,4 +114,24 @@ public class Utils {
         arr[a] = arr[b];
         arr[b] = tmp;
     }
+
+    /**
+     * 获取数组中三个数的中间值
+     * @param arr
+     * @param left
+     * @param right
+     * @return
+     */
+    public static int getComparator(int[] arr,int left,int right){
+        int middle = (right + left) >> 1;
+        if (arr[left] > arr[middle]){
+            return arr[left] > arr[right]?
+                    arr[right] > arr[middle]?arr[right]:arr[middle]:arr[left];
+        }else if (arr[left] < arr[middle]){
+            return arr[middle] > arr[right]?
+                    arr[right]>arr[left]?arr[right]:arr[left]:arr[middle];
+        }else {
+            return arr[left]>arr[middle]?arr[middle]:arr[left];
+        }
+    }
 }
