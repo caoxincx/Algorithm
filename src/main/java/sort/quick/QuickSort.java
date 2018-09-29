@@ -3,7 +3,6 @@ package sort.quick;
 import sort.Sort;
 import sort.SortUtils.Utils;
 
-import java.util.Arrays;
 
 /**
  * @描述 快速排序
