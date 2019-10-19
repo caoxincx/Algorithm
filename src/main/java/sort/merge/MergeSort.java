@@ -3,8 +3,6 @@ package sort.merge;
 import sort.Sort;
 import sort.SortUtils.Utils;
 
-import java.util.Arrays;
-
 /**
  * @描述
  * @创建人 caoxin
@@ -26,7 +24,6 @@ import java.util.Arrays;
  */
 public class MergeSort implements Sort {
 
-    @Override
     public void sort(int[] arr) {
         mergeSort(arr);
     }
