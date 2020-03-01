@@ -13,8 +13,20 @@ import java.util.*;
  */
 public class MinPath {
     // 声明一个二维数组
-    // private static int[][] arr = {{0, 1, 0, 3, 0}, {1, 0, 2, 4, 3}, {2, 0, 0, 4, 0}, {0, 5, 6, 5, 6}, {0, 3, 1, 3, 1}};
-    private static int[][] arr = {{0, 1, 2, 1, 0}, {0, 0, 3, 0, 0}, {0, 0, 4, 0, 0}, {0, 0, 5, 0, 0}, {0, 0, 0, 0, 0}};
+    // private static int[][] arr = {{0, 1, 0, 0, 0}, {0, 2, 0, 0, 0}, {0, 0, 0, 4, 5}, {0, 0, 0, 0, 0}, {0, 0, 3, 1,0}};
+    private static int[][] arr = {
+            {0,16,9,28,11,27,26,10,18,25,0,21,24,9,30,18,29,4,-11},
+            {18,33,0,5,31,9,0,21,25,20,0,0,12,5,0,15,0,0,0},
+            {7,0,0,0,11,0,0,0,29,0,0,0,8,0,0,0,0,0,0},
+            {0,0,0,21,0,0,0,32,0,28,0,-9,20,9,0,0,0,27,0},
+            {0,26,10,4,0,0,0,30,0,2,32,11,0,0,17,31,0,2,21},
+            {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26},
+            {0,0,-11,0,0,3,0,16,0,25,0,0,0,0,0,0,0,0,0},
+            {0,0,0,0,5,23,0,26,0,0,0,22,0,20,0,29,20,12,0},
+            {0,0,0,0,-12,0,0,0,25,0,0,0,-14,0,0,0,7,0,0},
+            {33,29,0,-14,14,30,0,-9,18,15,0,22,2,30,0,7,19,32,0},
+            {23,7,10,14,6,3,-12,12,11,24,12,2,5,19,10,8,32,6,17}
+    };
 
     // Position
     private static Position startPosition;
@@ -22,9 +34,9 @@ public class MinPath {
     static int[] dx = {-1, 1, 0, 0};
     static int[] dy = {0, 0, -1, 1};
 
-    public static void findConnectSpot() {
+    public static Position findConnectSpot() {
         if (arr == null || arr.length == 0 || startPosition.getLp() >= arr.length || startPosition.getRp() >= arr[0].length || arr[startPosition.getLp()][startPosition.getRp()] == 0) {
-            return;
+            return null;
         }
         // 记录走过的格子，防止重复走
         int[][] map = new int[arr.length][arr[0].length];
@@ -37,13 +49,13 @@ public class MinPath {
             // 头元素拿出来
             position = q.poll();
             if ((position.getLp() == arr.length && position.getRp() == arr[0].length)) {
-                return;
+                return null;
             }
             for (int i = 0; i < 4; i++) {// 先往某个方向不断查找，如果找不到则换一个方向
                 int toR = position.getLp() + dx[i];
                 int toC = position.getRp() + dy[i];
                 while (toR >= 0 && toR < arr.length &&  // 下一个x不超出格子
-                        toC >= 0 && toC < arr.length && // 下一个y不超出格子
+                        toC >= 0 && toC < arr[0].length && // 下一个y不超出格子
                         (arr[toR][toC] == 0 || arr[toR][toC] == arr[startPosition.getLp()][startPosition.getRp()]) && // 命中需要找的或者为空
                         map[toR][toC] == 0) { // 没走过的格子
                     // 添加下一个可能是拐点的元素
@@ -57,13 +69,14 @@ public class MinPath {
                             arr[toR][toC] = 0;
                             printPostion(startPosition, q.getLast());
                         }
-                        return;
+                        return new Position(toR, toC, 0);
                     }
                     toR = toR + dx[i];
                     toC = toC + dy[i];
                 }
             }
         }
+        return null;
     }
 
     public static boolean isEmpty(int[][] arr) {
@@ -83,16 +96,16 @@ public class MinPath {
     }
 
     public static void main(String[] args) {
-        while (!isEmpty(arr)){
-            for (int i = 0; i < arr.length; i++) {
-                for (int j = 0; j < arr[0].length; j++) {
-                    if (arr[i][j] == 0){
-                        continue;
-                    }
-                    startPosition = new Position(i, j, 0);
-                    findConnectSpot();
-                }
-            }
-        }
+        //while (!isEmpty(arr)) {
+        //    for (int i = 0; i < arr.length; i++) {
+        //        for (int j = 0; j < arr[0].length; j++) {
+        //            if (arr[i][j] == 0) {
+        //                continue;
+        //            }
+                    startPosition = new Position(7, 4, 0);
+                    Position connectSpot = findConnectSpot();
+            //    }
+            //}
+        //}
     }
 }
