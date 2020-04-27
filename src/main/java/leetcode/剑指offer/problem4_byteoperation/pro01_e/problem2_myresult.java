@@ -1,5 +1,7 @@
 package leetcode.剑指offer.problem4_byteoperation.pro01_e;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Stream;
 
 /**
@@ -12,6 +14,10 @@ import java.util.stream.Stream;
  * 修改描述:
  */
 public class problem2_myresult {
+    //private static List<Integer> list = new ArrayList();
+    //public static void main(String[] args) {
+    //    list.stream().mapToInt(Integer::intValue).toArray()/var;
+    //}
 }
 class Solution {
     // you need to treat n as an unsigned value

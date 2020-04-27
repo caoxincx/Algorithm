@@ -14,7 +14,6 @@ public class problem4_otherresult {
 class Solution1 {
     public boolean isSymmetric(TreeNode root) {
         return root == null ? true : isLeftTreeEqualRightTree(root.left,root.right);
-
     }
 
     public boolean isLeftTreeEqualRightTree(TreeNode left, TreeNode right) {
