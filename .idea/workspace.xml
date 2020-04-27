@@ -1,52 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a99c5d2a-2d61-4229-8fd5-72da43145f9d" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="a99c5d2a-2d61-4229-8fd5-72da43145f9d" name="Default" comment="1.对称二叉树">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/剑指offer/problem5_tree/pro05_m/problem5_desc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/剑指offer/problem5_tree/pro05_m/problem5_myresult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcode/剑指offer/problem5_tree/pro05_m/problem6_otherresult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="cb29bc97-b05d-4bf6-b5c5-82297beea90a" name="other" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Division.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sort/merge/Division.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeOfCX.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sort/merge/MergeOfCX.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sort/merge/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1835">
-              <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
-              <folding>
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#1625#1626#0" expanded="true" />
-                <element signature="e#1658#1659#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,28 +29,60 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/sort/merge/Division.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sort/merge/Divide.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sort/merge/Merge.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sort/merge/MergeOfCX.java" />
-        <option value="$PROJECT_DIR$/src/main/java/sort/merge/MergeSort.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="3" end1="8" start2="3" end2="16" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="13" end1="50" start2="21" end2="21" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="60" end1="76" start2="31" end2="79" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="80" end1="82" start2="83" end2="85" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="90" end1="92" start2="93" end2="96" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="93" end1="146" start2="97" end2="102" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="148" end1="148" start2="104" end2="105" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="150" end1="151" start2="107" end2="109" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="153" end1="154" start2="111" end2="116" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="156" end1="156" start2="118" end2="125" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="157" end1="157" start2="126" end2="129" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="160" end1="175" start2="132" end2="141" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="179" end1="180" start2="145" end2="146" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="183" end1="183" start2="149" end2="152" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="184" end1="186" start2="153" end2="155" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="190" end1="191" start2="159" end2="160" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="194" end1="194" start2="163" end2="166" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="195" end1="197" start2="167" end2="169" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="201" end1="202" start2="173" end2="174" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="205" end1="205" start2="177" end2="180" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="206" end1="208" start2="181" end2="183" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="212" end1="213" start2="187" end2="188" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="216" end1="216" start2="191" end2="194" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="217" end1="218" start2="195" end2="198" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="219" end1="219" start2="199" end2="208" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="221" end1="226" start2="210" end2="210" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="227" end1="229" start2="211" end2="211" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="230" end1="235" start2="212" end2="215" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="236" end1="244" start2="216" end2="217" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="245" end1="247" start2="218" end2="218" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="248" end1="255" start2="219" end2="219" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="257" end1="257" start2="221" end2="224" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="259" end1="263" start2="226" end2="231" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="266" end1="270" start2="234" end2="239" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="273" end1="273" start2="242" end2="254" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="279" end1="279" start2="260" end2="261" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="286" end1="286" start2="268" end2="337" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="287" end1="287" start2="338" end2="402" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="288" end1="328" start2="403" end2="403" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="332" end1="334" start2="407" end2="421" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="335" end1="403" start2="422" end2="559" changelist="a99c5d2a-2d61-4229-8fd5-72da43145f9d" />
+        <range start1="406" end1="406" start2="562" end2="622" changelist="cb29bc97-b05d-4bf6-b5c5-82297beea90a" />
+        <range start1="414" end1="414" start2="630" end2="641" changelist="cb29bc97-b05d-4bf6-b5c5-82297beea90a" />
+      </ranges>
+    </file>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/it.caoxin.software/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="D:\it.caoxin.software\apache-maven-3.5.0\conf\settings.xml" />
+        <option name="mavenHome" value="D:/software/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -88,188 +91,166 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+  <component name="ProjectId" id="1YX3AjvVrHYD2AdFX6ZaEIU4aLW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../work_ideaworkspace/project" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571745788665" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/leetcode/剑指offer/problem5_tree/pro02_m" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.剑指offer.problem5_tree.pro01_m" />
+      <recent name="leetcode.剑指offer.problem4_byteoperation.pro02_e" />
+      <recent name="leetcode.剑指offer.problem4_byteoperation.pro01_e" />
+      <recent name="leetcode.剑指offer.problem1_stack.pro04_m" />
+      <recent name="leetcode.剑指offer.problem1_stack.pro03_e" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaworkspace\Algorithm\src\main\java\leetcode\剑指offer\problem5_tree\pro02_m" />
+      <recent name="E:\ideaworkspace\Algorithm\src\main\java\config-repo" />
+      <recent name="E:\ideaworkspace\Algorithm\src\main\java\leetcode\剑指offer\problem5_tree\pro01_m" />
       <recent name="D:\it.caoxin.workspace\idea-workspace\Algorithm\src\main\java\sort\merge" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="Divide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.merge.Divide" />
-      <module name="Algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.merge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Division" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.merge.Division" />
-      <module name="Algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.merge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MergeOfCX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.merge.MergeOfCX" />
-      <module name="Algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.merge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.merge.MergeSort" />
-      <module name="Algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.merge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.problem5_desc">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problem1_desc (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.剑指offer.problem3_sort.pro01_m.problem1_desc" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.剑指offer.problem3_sort.pro01_m.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problem1_desc (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.剑指offer.problem4_byteoperation.pro01_e.problem1_desc" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.剑指offer.problem4_byteoperation.pro01_e.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problem1_desc (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.剑指offer.problem5_tree.pro01_m.problem1_desc" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.剑指offer.problem5_tree.pro01_m.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problem2_myresult" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.剑指offer.problem5_tree.pro01_m.problem2_myresult" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.剑指offer.problem5_tree.pro01_m.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="problem5_desc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.剑指offer.problem5_tree.pro05_m.problem5_desc" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.剑指offer.problem5_tree.pro05_m.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Division" />
-      <item itemvalue="Application.Divide" />
-      <item itemvalue="Application.MergeOfCX" />
-      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.problem1_desc (1)" />
+      <item itemvalue="Application.problem1_desc (2)" />
+      <item itemvalue="Application.problem1_desc (3)" />
+      <item itemvalue="Application.problem2_myresult" />
+      <item itemvalue="Application.problem5_desc" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.MergeOfCX" />
-        <item itemvalue="Application.Divide" />
-        <item itemvalue="Application.Division" />
+        <item itemvalue="Application.problem5_desc" />
+        <item itemvalue="Application.problem1_desc (3)" />
+        <item itemvalue="Application.problem2_myresult" />
+        <item itemvalue="Application.problem1_desc (2)" />
+        <item itemvalue="Application.problem1_desc (1)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\11014465\AppData\Roaming\Subversion</configuration>
@@ -277,6 +258,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a99c5d2a-2d61-4229-8fd5-72da43145f9d" name="Default" comment="" />
+      <changelist id="cb29bc97-b05d-4bf6-b5c5-82297beea90a" name="other" comment="" />
       <created>1537947481751</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -284,123 +266,297 @@
       <workItem from="1537947486705" duration="6530000" />
       <workItem from="1538010513046" duration="9755000" />
       <workItem from="1538096012955" duration="5865000" />
+      <workItem from="1571452187388" duration="20207000" />
+      <workItem from="1571500594534" duration="1882000" />
+      <workItem from="1571540304270" duration="22924000" />
+      <workItem from="1571580796896" duration="525000" />
+      <workItem from="1571582126266" duration="2616000" />
+      <workItem from="1571718330272" duration="6207000" />
+      <workItem from="1571798247158" duration="1782000" />
+      <workItem from="1572142266743" duration="905000" />
+      <workItem from="1583074972824" duration="1764000" />
+      <workItem from="1583200971170" duration="120000" />
+      <workItem from="1583640081063" duration="15939000" />
+      <workItem from="1583715884578" duration="86000" />
+      <workItem from="1584227917971" duration="22045000" />
+      <workItem from="1584940260316" duration="4448000" />
+      <workItem from="1584960105434" duration="31000" />
+      <workItem from="1586148200697" duration="5814000" />
+      <workItem from="1586218896964" duration="920000" />
+      <workItem from="1586243444467" duration="155000" />
+      <workItem from="1586660261416" duration="11579000" />
+      <workItem from="1586696072036" duration="2206000" />
+      <workItem from="1586699149674" duration="351000" />
+      <workItem from="1586740294956" duration="4598000" />
+      <workItem from="1586838885775" duration="2605000" />
+      <workItem from="1587307522987" duration="535000" />
+      <workItem from="1587731851434" duration="3209000" />
+      <workItem from="1587777991725" duration="104000" />
+      <workItem from="1587962506806" duration="6452000" />
     </task>
+    <task id="LOCAL-00001" summary="增加找出两个点之间最小路径算法">
+      <created>1571481862910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571481862910</updated>
+    </task>
+    <task id="LOCAL-00002" summary="最少拐弯问题，使用广度优先搜索，从一个方向搜，搜完再完另外一个方向搜解决">
+      <created>1571573841844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571573841845</updated>
+    </task>
+    <task id="LOCAL-00003" summary="最少拐弯问题，使用广度优先搜索，从一个方向搜，搜完再完另外一个方向搜解决">
+      <created>1583075080020</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583075080020</updated>
+    </task>
+    <task id="LOCAL-00004" summary="最少拐弯问题，使用广度优先搜索，从一个方向搜，搜完再完另外一个方向搜解决">
+      <created>1583076645034</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583076645034</updated>
+    </task>
+    <task id="LOCAL-00005" summary="滑动窗口最小值问题">
+      <created>1583649701199</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583649701199</updated>
+    </task>
+    <task id="LOCAL-00006" summary="队列的最大值">
+      <created>1583665935259</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583665935259</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1.topk,堆的运用，可以用快速排序,自定义最小堆&#10;2.中位数问题,用一个最大堆存储小的部分，一个最小堆存大的部分。">
+      <created>1584276576219</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1584276576219</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1.提交返回一个数中拼接的最大值&#10;2.提交给定一个无符号数,求无符号数中有多少个1&#10;3.提交数组中大于数组长度一般个数的数">
+      <created>1586154065458</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586154065458</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1.根据二叉树先序遍历或者后续遍历重建二叉树">
+      <created>1586740596777</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586740596777</updated>
+    </task>
+    <task id="LOCAL-00010" summary="测试注册中心">
+      <created>1586838963433</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586838963433</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1.删除不需要的东西">
+      <created>1586840696469</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586840696469</updated>
+    </task>
+    <task id="LOCAL-00012" summary="1.给出两个数，判断B树是否是A树的子树">
+      <created>1587307890595</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587307890603</updated>
+    </task>
+    <task id="LOCAL-00013" summary="1.树的镜像">
+      <created>1587732111612</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587732111612</updated>
+    </task>
+    <task id="LOCAL-00014" summary="1.对称二叉树">
+      <created>1587741427443</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587741427443</updated>
+    </task>
+    <task id="LOCAL-00015" summary="1.对称二叉树">
+      <created>1587968405536</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587968405536</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22150000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="JRebel Executor" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3642857" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.375" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.259542" />
-      <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info anchor="right" id="BPMNPalette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32857144" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加找出两个点之间最小路径算法" />
+    <MESSAGE value="最少拐弯问题，使用广度优先搜索，从一个方向搜，搜完再完另外一个方向搜解决" />
+    <MESSAGE value="滑动窗口最小值问题" />
+    <MESSAGE value="队列的最大值" />
+    <MESSAGE value="1.topk,堆的运用，可以用快速排序,自定义最小堆&#10;2.中位数问题,用一个最大堆存储小的部分，一个最小堆存大的部分。" />
+    <MESSAGE value="1.提交返回一个数中拼接的最大值&#10;2.提交给定一个无符号数,求无符号数中有多少个1&#10;3.提交数组中大于数组长度一般个数的数" />
+    <MESSAGE value="1.根据二叉树先序遍历或者后续遍历重建二叉树" />
+    <MESSAGE value="测试注册中心" />
+    <MESSAGE value="1.删除不需要的东西" />
+    <MESSAGE value="1.给出两个数，判断B树是否是A树的子树" />
+    <MESSAGE value="1.树的镜像" />
+    <MESSAGE value="1.对称二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.对称二叉树" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1587968690043">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="444" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587968690043" />
+    <state x="507" y="0" key="#xdebugger.evaluate" timestamp="1584270276638">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="507" y="0" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1584270276638" />
+    <state x="125" y="0" key="CommitChangelistDialog2" timestamp="1587968403709">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="125" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587968403709" />
+    <state width="541" height="546" key="DebuggerActiveHint" timestamp="1586686422730">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="541" height="546" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1586686422730" />
+    <state x="3" y="49" key="DiffContextDialog" timestamp="1586153970000">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="3" y="49" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1586153970000" />
+    <state x="413" y="41" key="FileChooserDialogImpl" timestamp="1586852559676">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="41" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586852559676" />
+    <state width="1313" height="412" key="GridCell.Tab.0.bottom" timestamp="1587968972125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="412" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587968972125" />
+    <state width="1313" height="412" key="GridCell.Tab.0.center" timestamp="1587968972125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="412" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587968972125" />
+    <state width="1313" height="412" key="GridCell.Tab.0.left" timestamp="1587968972125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="412" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587968972125" />
+    <state width="1313" height="412" key="GridCell.Tab.0.right" timestamp="1587968972125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="412" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587968972125" />
+    <state width="1313" height="412" key="GridCell.Tab.1.bottom" timestamp="1587968972125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="412" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587968972125" />
+    <state width="1313" height="412" key="GridCell.Tab.1.center" timestamp="1587968972125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="412" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1587968972125" />
+    <state width="1313" height="412" key="GridCell.Tab.1.left" timestamp="1587968972125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="412" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1587968972125" />
+    <state width="1313" height="412" key="GridCell.Tab.1.right" timestamp="1587968972125">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1313" height="412" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587968972125" />
+    <state x="68" y="0" key="SettingsEditor" timestamp="1587741311856">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="68" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587741311856" />
+    <state x="337" y="42" width="705" height="655" key="StructurePopup" timestamp="1587979239784">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="337" y="42" width="705" height="655" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1587979239784" />
+    <state x="509" y="259" key="VCS.ChangelistChooser" timestamp="1587968376538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="509" y="259" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1587968376538" />
+    <state x="175" y="28" key="Vcs.Push.Dialog.v2" timestamp="1587968407311">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="175" y="28" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587968407311" />
+    <state x="297" y="42" width="771" height="644" key="find.popup" timestamp="1583640427241">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="297" y="42" width="771" height="644" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1583640427241" />
+    <state x="296" y="0" key="new project wizard" timestamp="1586852561865">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="296" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1586852561865" />
+    <state x="262" y="0" width="840" height="726" key="search.everywhere.popup" timestamp="1587979233299">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="262" y="0" width="840" height="726" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587979233299" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="19" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrayproblem/minpath/MinPath.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrayproblem/bfsextension/MinPath.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrayproblem/bfsextension/MinPath.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/剑指offer/problem1_stack/pro03_e/problem3_2myresult.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/quick/NetherlandsFlag.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="index == 2" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/剑指offer/problem2_queue/pro01_e/problem3_otherresult.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/剑指offer/problem5_tree/pro01_m/problem2_myresult.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/剑指offer/problem5_tree/pro01_m/problem1_desc.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leetcode/剑指offer/problem5_tree/pro01_m/problem3_otherresult.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/merge/Division.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/merge/MergeOfCX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="30" column="104" selection-start-line="30" selection-start-column="104" selection-end-line="30" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/merge/Division.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" selection-start-line="13" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/it.caoxin.software/java/jdk1.8.0_161/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="771" column="25" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/merge/Division.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/merge/MergeOfCX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sort/merge/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1835">
-          <caret line="159" lean-forward="true" selection-start-line="159" selection-end-line="159" />
-          <folding>
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#1625#1626#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
